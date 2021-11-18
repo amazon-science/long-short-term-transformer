@@ -1,0 +1,7 @@
+opencv-python==4.4.0.46
+scikit-image==0.16.2
+scikit-learn==0.23.1
+torch==1.7.1
+torchvision==0.8.2
+tqdm==4.44.1
+yacs==0.1.8
