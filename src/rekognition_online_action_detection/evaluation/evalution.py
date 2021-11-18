@@ -4,7 +4,6 @@
 from .postprocessing import postprocessing as default_pp
 from .metrics import perframe_average_precision
 from .metrics import perstage_average_precision
-from .metrics import proposal_average_precision
 
 from rekognition_online_action_detection.utils.registry import Registry
 
@@ -40,13 +39,4 @@ def eval_perstage(cfg, ground_truth, prediction, **kwargs):
         ignore_index=ignore_index,
         metrics=metrics,
         postprocessing=postprocessing,
-    )
-
-
-@compute_result.register('proposal')
-def eval_proposal(cfg, ground_truth, prediction, **kwargs):
-    return proposal_average_precision(
-        ground_truth=ground_truth,
-        prediction=prediction,
-        **kwargs,
     )
