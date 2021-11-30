@@ -9,7 +9,7 @@ from rekognition_online_action_detection.config.defaults import get_cfg
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Rekognition Face Anti-Spoofing')
+    parser = argparse.ArgumentParser(description='Rekognition Online Action Detection')
     parser.add_argument(
         '--config_file',
         default='',
