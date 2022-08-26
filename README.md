@@ -77,7 +77,7 @@ This is a PyTorch implementation for our NeurIPS 2021 Spotlight paper "[`Long Sh
     
 #### Option2: Directly download the pre-extracted features and targets from [`TeSTra`](https://github.com/zhaoyue-zephyrus/TeSTra).
 
-If you don't want to skip the data preprocessing and quickly try LSTR, please refer to [`TeSTra`](https://github.com/zhaoyue-zephyrus/TeSTra). The features and targets there ***exactly*** follow LSTR's data structure and should be able to reproduce LSTR's performance. However, if you have any question about the processing of these features and targets, please contact the authors of [`TeSTra`](https://github.com/zhaoyue-zephyrus/TeSTra) directly.
+If you want to skip the data preprocessing and quickly try LSTR, please refer to [`TeSTra`](https://github.com/zhaoyue-zephyrus/TeSTra). The features and targets there ***exactly*** follow LSTR's data structure and should be able to reproduce LSTR's performance. However, if you have any question about the processing of these features and targets, please contact the authors of [`TeSTra`](https://github.com/zhaoyue-zephyrus/TeSTra) directly.
 
 ## Training
 
