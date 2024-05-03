@@ -3,5 +3,5 @@ scikit-image==0.16.2
 scikit-learn==0.23.1
 torch==1.13.1
 torchvision==0.8.2
-tqdm==4.44.1
+tqdm==4.66.3
 yacs==0.1.8
